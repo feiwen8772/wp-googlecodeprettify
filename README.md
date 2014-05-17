@@ -8,6 +8,8 @@ Author: 愚人码头
 
 Author URL:  [http://www.css88.com/](http://www.css88.com/)
 
+查看[代码高亮效果](http://www.css88.com/archives/4728)
+
 安装说明
 -----
 ### 下载""
