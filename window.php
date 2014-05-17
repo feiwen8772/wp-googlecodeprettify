@@ -10,7 +10,7 @@ global $wpdb;
 ?>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-    <title>WP-Syntax</title>
+    <title>WP-googlecodeprettify 插入代码</title>
     <!-- 	<meta http-equiv="Content-Type" content="<?php // bloginfo('html_type'); ?>; charset=<?php //echo get_option('blog_charset'); ?>" /> -->
     <script language="javascript" type="text/javascript"
             src="<?php echo get_option('siteurl') ?>/wp-includes/js/tinymce/tiny_mce_popup.js"></script>
@@ -49,11 +49,11 @@ global $wpdb;
             <td nowrap="nowrap" valign="top"></td>
             <td>
                 <div style="float: left; margin-right: 10px">
-                    <input type="submit" id="insert" name="insert" value="<?php _e("Insert", 'wpgcp_main'); ?>"
+                    <input type="submit" id="insert" name="insert" value="<?php _e("确定插入", 'wpgcp_main'); ?>"
                            onclick="insertwpgcpcode();"/>
                 </div>
                 <div style="float: left">
-                    <input type="button" id="cancel" name="cancel" value="<?php _e("Cancel", 'wpgcp_main'); ?>"
+                    <input type="button" id="cancel" name="cancel" value="<?php _e("取消", 'wpgcp_main'); ?>"
                            onclick="tinyMCEPopup.close();"/>
                 </div>
             </td>
