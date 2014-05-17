@@ -28,7 +28,7 @@ global $wpdb;
         <tr>
             <td nowrap="nowrap"><label for="wpgcp_main"><?php _e("选择语言", 'wpgcp_main'); ?></label></td>
             <td><select id="wpgcp_lang" name="wpgcp_main" style="width: 200px">
-                    <option value="javascript" selected><?php _e("javascript", 'wpgcp_main'); ?></option>
+                    <option value="js" selected><?php _e("javascript", 'wpgcp_main'); ?></option>
                     <option value="css"><?php _e("css", 'wpgcp_main'); ?></option>
                     <option value="html"><?php _e("html", 'wpgcp_main'); ?></option>
                 </select></td>
