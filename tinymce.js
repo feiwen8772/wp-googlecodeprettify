@@ -39,13 +39,14 @@ function insertwpgcpcode() {
         //var html = window.tinyMCE.activeEditor.selection.getContent();
 
     var html = escapeHtml(document.getElementById('wpgcp_code').value);
-    tagtext = '<pre class="prettyprint lang-'+langname ;
-    if (linenumber) {
-        tagtext = tagtext + ' linenums:' + linenumber + '" ';
+    //tagtextOld = '<pre class="prettyprint lang-'+ langname + '>' + html + '</pre>';
+    /*if (linenumber) {
+        tagtext = '<pre class="prettyprint lang-'+ langname + ' linenums:' + linenumber + '" >' + html + '</pre>';
     } else{
-        tagtext = tagtext +'" ';
-    }
-    window.tinymce.activeEditor.execCommand('mceInsertContent', false, tagtext + '>' + html + '</pre>');
+
+    }*/
+    tagtext = '<pre class="prettyprint lang-'+ langname + ' linenums:' + linenumber + '" >' + html + '</pre>';
+    window.tinymce.activeEditor.insertContent(tagtext);
     /*window.tinyMCE.execInstanceCommand('content', 'mceInsertContent', false, tagtext + '>' + html + '</pre>');*/
     tinyMCEPopup.editor.execCommand('mceRepaint');
     tinyMCEPopup.close();

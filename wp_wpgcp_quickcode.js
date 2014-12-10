@@ -16,9 +16,9 @@ function WPSyntaxQTClick(e, myField, ed) {
     if (e.value == "pre-js") {
         codetag = '<pre class="prettyprint lang-js linenums:1">\n';
     } else if (e.value == "pre-css") {
-        codetag = '<pre class="prettyprint lang-js linenums:1">\n';
+        codetag = '<pre class="prettyprint lang-css linenums:1">\n';
     } else if (e.value == "pre-html") {
-        codetag = '<pre class="prettyprint lang-js linenums:1">\n';
+        codetag = '<pre class="prettyprint lang-html linenums:1">\n';
     }
     var t = this, escapedhtml;
     t.tagEnd = '</pre>';

@@ -45,7 +45,7 @@ function WPGcpQTClick(e, myField, ed) {
         var startPos = myField.selectionStart;
         var endPos = myField.selectionEnd;
         var cursorPos = endPos;
-        var scrollTop = myField.scrollTop;
+        //var scrollTop = myField.scrollTop;
 
         if (startPos != endPos) {
             escapedhtml = myField.value.substring(startPos, endPos).escapeHTML();
@@ -67,10 +67,12 @@ function WPGcpQTClick(e, myField, ed) {
             /* We do not want to just start and open the tag since in this case HTML entities cannot be escaped
              */
         }
-        myField.focus();
+        //myField.focus();
         myField.selectionStart = cursorPos;
         myField.selectionEnd = cursorPos;
-        myField.scrollTop = scrollTop;
+        myField.focus();
+        //myField.scrollTop = scrollTop;
+
     }
     else {
         alert('对不起，你的浏览器不支持选中文本！');
