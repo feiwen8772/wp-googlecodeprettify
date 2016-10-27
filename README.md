@@ -36,6 +36,7 @@ Author URL:  [http://www.css88.com/](http://www.css88.com/)
 ![](https://github.com/feiwen8772/wp-googlecodeprettify/blob/master/doc/DCF4C61F-B524-4F71-8CE9-18E13BE2FEAB.png?raw=true)
 
 点击这个按钮，弹出插入代码的对话框，如图：
+
 ![](https://github.com/feiwen8772/wp-googlecodeprettify/blob/master/doc/3CDAF47C-2C34-4101-A309-3E1D3D7DF907.png?raw=true)
 
 **选择语言类型**，**插入代码**，点击 **确定插入** ，就可以了。
