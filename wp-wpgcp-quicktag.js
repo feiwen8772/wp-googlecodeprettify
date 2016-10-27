@@ -12,13 +12,13 @@ String.prototype.escapeHTML = function () {
 //element, canvas, ed
 function WPGcpQTClick(e, myField, ed) {
 
-    var codetag = '<pre class="prettyprint lang-js linenums:1">\n';
+    var codetag = '<pre class="prettyprint lang-JavaScript linenums:1">\n';
     if (e.value == "pre-js") {
-        codetag = '<pre class="prettyprint lang-js linenums:1">\n';
+        codetag = '<pre class="prettyprint lang-JavaScript linenums:1">\n';
     } else if (e.value == "pre-css") {
-        codetag = '<pre class="prettyprint lang-css linenums:1">\n';
+        codetag = '<pre class="prettyprint lang-CSS linenums:1">\n';
     } else if (e.value == "pre-html") {
-        codetag = '<pre class="prettyprint lang-html linenums:1">\n';
+        codetag = '<pre class="prettyprint lang-HTML linenums:1">\n';
     }
     var t = this, escapedhtml;
     t.tagEnd = '</pre>';

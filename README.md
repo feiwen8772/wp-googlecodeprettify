@@ -2,6 +2,12 @@ WordPress代码高亮插件 WP-googlecodeprettify
 =====
 一个基于 Google Code Prettify 实现的WordPress代码高亮插件，在TinyMCE编辑器中提供了一个插入代码的按钮。在文本编辑器中，加入了pre-js,pre-css,pre-html 3个快捷按钮;
 
+更新信息
+------
+在代码区上面增加了语言类型名称，名称值读取的是 `lang-`后面的值。你可以设置为`lang-CSS`，`lang-HTML`，`lang-JavaScript`，`lang-ES6`，`lang-ES5`，`lang-ECMAScript6`，`lang-js`,等。
+
+增加了Sass 和 ECMAScript 6语法高亮。
+
 插件信息
 ------
 Author: 愚人码头
@@ -55,7 +61,7 @@ Author URL:  [http://www.css88.com/](http://www.css88.com/)
 
  也就是说，Google Code Prettify支持高亮的语言：`C`, `Java`, `Python`, `Bash`, `HTML`, `XML`, `Javascript`, `Makefiles`, `Ruby`, `PHP`, `Awk`, `Perl`, `Basic`, `Clojure`, `CSS`, `Dart`, `Erlang`, `Go`, `Haskell`, `Lisp`, `Scheme`, `LLVM`, `Lua`, `Matlab`, `Pascal`, `R`, `Scala`, `SQL`, `LaTeX`等语言。
 
-Google Code Prettify的官方说明和使用说明：[http://google-code-prettify.googlecode.com/svn/trunk/README.html](http://google-code-prettify.googlecode.com/svn/trunk/README.html)
+Google Code Prettify的官方说明和使用说明：[https://github.com/google/code-prettify](https://github.com/google/code-prettify)
 
 主题风格
 -----

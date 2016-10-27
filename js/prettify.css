@@ -48,4 +48,19 @@ pre.prettyprint.linenums ol li {
 .prettyprint .dec,
 .prettyprint .var { color: #A6E22E; }
 .prettyprint .pln { color: #66D9EF; }
-
+.prettyprint h6{padding-left: 10px; line-height: 30px; font-weight: 400;}
+.prettyprint  h6 .com,
+.prettyprint  h6 .lit,
+.prettyprint  h6 .pun,
+.prettyprint  h6 .opn,
+.prettyprint  h6 .clo,
+.prettyprint  h6 .fun,
+.prettyprint  h6 .str,
+.prettyprint  h6 .atv,
+.prettyprint  h6 .kwd,
+.prettyprint  h6 .tag,
+.prettyprint  h6 .typ,
+.prettyprint  h6 .atn,
+.prettyprint  h6 .dec,
+.prettyprint  h6 .var,
+.prettyprint  h6 .pln{color: #FFFFFF;}
