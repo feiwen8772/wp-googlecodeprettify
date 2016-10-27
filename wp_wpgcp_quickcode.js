@@ -12,13 +12,13 @@ String.prototype.escapeHTML = function () {
 //element, canvas, ed
 function WPSyntaxQTClick(e, myField, ed) {
 
-    var codetag = '<pre class="prettyprint lang-js linenums:1">\n';
+    var codetag = '<pre class="linenums\\:1 prettyprint lang-js">\n';
     if (e.value == "pre-js") {
-        codetag = '<pre class="prettyprint lang-js linenums:1">\n';
+        codetag = '<pre class="linenums\\:1 prettyprint lang-js">\n';
     } else if (e.value == "pre-css") {
-        codetag = '<pre class="prettyprint lang-css linenums:1">\n';
+        codetag = '<pre class="linenums\\:1 prettyprint lang-css">\n';
     } else if (e.value == "pre-html") {
-        codetag = '<pre class="prettyprint lang-html linenums:1">\n';
+        codetag = '<pre class="linenums\\:1 prettyprint lang-html">\n';
     }
     var t = this, escapedhtml;
     t.tagEnd = '</pre>';
