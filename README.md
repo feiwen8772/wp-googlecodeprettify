@@ -4,9 +4,9 @@ WordPress代码高亮插件 WP-googlecodeprettify
 
 更新信息
 ------
-在代码区上面增加了语言类型名称，名称值读取的是 `lang-`后面的值。你可以设置为`lang-CSS`，`lang-HTML`，`lang-JavaScript`，`lang-ES6`，`lang-ES5`，`lang-ECMAScript6`，`lang-js`,等。
-
-增加了Sass 和 ECMAScript 6语法高亮。
+2016年10月27日 更新：
+- 在代码区上面增加了语言类型名称，名称值读取的是 `lang-`后面的值。你可以在文本编辑器中设置为`lang-CSS`，`lang-HTML`，`lang-JavaScript`，`lang-ES6`，`lang-ES5`，`lang-ECMAScript6`，`lang-js`,等。
+- 增加了Sass 和 ECMAScript 6语法高亮。
 
 插件信息
 ------
