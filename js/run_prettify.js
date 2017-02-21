@@ -1666,7 +1666,7 @@ var IN_GLOBAL_SCOPE = false;
               'keywords': JSCRIPT_KEYWORDS,
               'cStyleComments': true,
               'regexLiterals': true
-            }), ['javascript', 'JavaScript','js', 'ts', 'typescript', 'ES6', 'jQuery', 'ECMAScript6','ES5']);
+            }), ['javascript', 'package.json','JavaScript','js', 'ts', 'typescript', 'ES6', 'jQuery', 'ECMAScript6','ES5']);
       registerLangHandler(sourceDecorator({
               'keywords': COFFEE_KEYWORDS,
               'hashComments': 3,  // ### style block comments

@@ -35,6 +35,7 @@ global $wpdb;
                     <option value="CSS"><?php _e("CSS", 'wpgcp_main'); ?></option>
                     <option value="Sass"><?php _e("Sass", 'wpgcp_main'); ?></option>
                     <option value="HTML"><?php _e("HTML", 'wpgcp_main'); ?></option>
+                    <option value="package.json"><?php _e("package.json", 'wpgcp_main'); ?></option>
                 </select></td>
         </tr>
     </table>
