@@ -30,6 +30,8 @@ global $wpdb;
             <td><select id="wpgcp_lang" name="wpgcp_main" style="width: 200px">
                     <option value="JavaScript" selected><?php _e("JavaScript", 'wpgcp_main'); ?></option>
                     <option value="ECMAScript6"><?php _e("ECMAScript 6", 'wpgcp_main'); ?></option>
+                    <option value="CommandLine"><?php _e("CommandLine", 'wpgcp_main'); ?></option>
+                    <option value="jQuery"><?php _e("jQuery", 'wpgcp_main'); ?></option>
                     <option value="CSS"><?php _e("CSS", 'wpgcp_main'); ?></option>
                     <option value="Sass"><?php _e("Sass", 'wpgcp_main'); ?></option>
                     <option value="HTML"><?php _e("HTML", 'wpgcp_main'); ?></option>

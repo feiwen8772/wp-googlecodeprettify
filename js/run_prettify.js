@@ -1643,7 +1643,7 @@ var IN_GLOBAL_SCOPE = false;
               'keywords': SH_KEYWORDS,
               'hashComments': true,
               'multiLineStrings': true
-            }), ['bash', 'bsh', 'csh', 'sh']);
+            }), ['bash', 'bsh', 'csh', 'sh','CommandLine']);
       registerLangHandler(sourceDecorator({
               'keywords': PYTHON_KEYWORDS,
               'hashComments': true,
@@ -1666,7 +1666,7 @@ var IN_GLOBAL_SCOPE = false;
               'keywords': JSCRIPT_KEYWORDS,
               'cStyleComments': true,
               'regexLiterals': true
-            }), ['javascript', 'JavaScript','js', 'ts', 'typescript', 'ES6', 'ECMAScript6','ES5']);
+            }), ['javascript', 'JavaScript','js', 'ts', 'typescript', 'ES6', 'jQuery', 'ECMAScript6','ES5']);
       registerLangHandler(sourceDecorator({
               'keywords': COFFEE_KEYWORDS,
               'hashComments': 3,  // ### style block comments
