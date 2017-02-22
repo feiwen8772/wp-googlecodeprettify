@@ -12,6 +12,10 @@
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
     border-radius: 3px;
+    white-space:pre;
+    white-space:pre-wrap;
+    word-break:break-all;
+    word-wrap:break-word;
 }
 
 .prettyprint.linenums,
