@@ -69,20 +69,20 @@ Author URL:  [http://www.css88.com/](http://www.css88.com/)
 
  也就是说，Google Code Prettify支持高亮的语言：`C`, `Java`, `Python`, `Bash`, `HTML`, `XML`, `Javascript`, `Makefiles`, `Ruby`, `PHP`, `Awk`, `Perl`, `Basic`, `Clojure`, `CSS`, `Dart`, `Erlang`, `Go`, `Haskell`, `Lisp`, `Scheme`, `LLVM`, `Lua`, `Matlab`, `Pascal`, `R`, `Scala`, `SQL`, `LaTeX`等语言。
 
-Google Code Prettify的官方说明和使用说明：[https://github.com/google/code-prettify](https://github.com/google/code-prettify)
+Google Code Prettify 的代码仓库和使用说明：[https://github.com/google/code-prettify](https://github.com/google/code-prettify)
 
-主题风格
------
+### 主题风格
+
 本插件默认提供的主题非常漂亮，你可以根据你自己的需要修改主题风格。只要修改插件目录下 `/js/prettify.css` CSS文件就可以了，修改完成后上传覆盖就好了。
 
-Google Code Prettify 官方提供了5套主题：[http://google-code-prettify.googlecode.com/svn/trunk/styles/index.html](http://google-code-prettify.googlecode.com/svn/trunk/styles/index.html)
+Google Code Prettify 官方提供了5套主题：[https://rawgit.com/google/code-prettify/master/styles/index.html](https://rawgit.com/google/code-prettify/master/styles/index.html)
 
 还有GitHub几套更加漂亮的主题：[http://jmblog.github.io/color-themes-for-google-code-prettify/](http://jmblog.github.io/color-themes-for-google-code-prettify/)
 
-你可以拷贝过来直接使用。
+你可以拷贝过来直接使用。当然要是你喜欢，完全可自己写一套主题。
 
-修改本插件
------
+### 修改本插件
+
 本插件默认只提供了`html`，`css`，`js`三种语言高亮,这对于高亮其他语言很不方便。如果本插件将全部语言放出来，那么选择项太多，查找也不方便。
 
 所以，你可以根据自身的需求修改本插件支持其他语言的高亮：
@@ -90,12 +90,12 @@ Google Code Prettify 官方提供了5套主题：[http://google-code-prettify.go
 1. TinyMCE富文本编辑器下，你可以修改 `window.php` 文件中ID为 `wpgcp_lang` 的 `select` 控件,修改、增加、删除相应的 `option` 即可；
 2. 文本模式编辑器下，修改对应的"QuickTags"按钮就可以了，在`wp-wpgcp-quicktag.js`下，怎么修改？你自己看代码吧。
 
-改进完善
------
+### 改进完善
+
 本插件还有很多不尽如人意地方，就是上面所说的那样，其他语言高亮还需要用户自己手工修改。
 由于本人PHP水平太差，对WordPress的插件机制又不熟悉，所以改进计划一直搁置。如果你有兴趣，欢迎你帮大家做个插件选项页面，主要是可以设置常用语言，等等。欢迎pull或微博上[@愚人码头](http://weibo.com/148246293) ，感激万分。
 
-其他说明
------
+### 其他说明
+
 1. 本插件对Google Code Prettify 源代码做了个小修改，插件目录下 `/js/prettify.js` 文件最后加了一条初始化prettyPrint的语句。
-2. Google Code Prettify的官方说明和使用说明：[http://google-code-prettify.googlecode.com/svn/trunk/README.html](http://google-code-prettify.googlecode.com/svn/trunk/README.html)
+2. Google Code Prettify 的代码仓库和使用说明：[https://github.com/google/code-prettify](https://github.com/google/code-prettify)
