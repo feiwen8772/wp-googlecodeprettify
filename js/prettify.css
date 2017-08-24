@@ -1,6 +1,6 @@
 /* Tomorrow Night Eighties Theme */
 /* Original theme - https://github.com/chriskempson/tomorrow-theme */
-/* css88 0.1*/
+/* css88 0.2*/
 .prettyprint,pre.prettyprint {
     background-color: #444444;
     border: 1px solid #272822;
@@ -36,7 +36,9 @@ pre.prettyprint.linenums ol li {
   margin-left: 0;
   list-style: decimal;
 }
-.prettyprint ol.linenums{ margin-bottom: 0;/*margin-bottom: -8px; margin-top:-8px; margin-right: -8px; position:relative;*/background-color: #272822; padding: 8px}
+.prettyprint ol.linenums{ margin: 0 0 0 42px!important;/*margin-bottom: -8px; margin-top:-8px; margin-right: -8px; position:relative;*/background-color: #272822; padding: 8px; }
+.prettyprint ol.linenums li{
+    position: relative; }
 .prettyprint .com { color: #93a1a1; }
 .prettyprint .lit { color: #AE81FF; }
 .prettyprint .pun,
@@ -52,19 +54,24 @@ pre.prettyprint.linenums ol li {
 .prettyprint .dec,
 .prettyprint .var { color: #A6E22E; }
 .prettyprint .pln { color: #66D9EF; }
-.prettyprint h6{padding-left: 10px; line-height: 30px; font-weight: 400;}
-.prettyprint  h6 .com,
-.prettyprint  h6 .lit,
-.prettyprint  h6 .pun,
-.prettyprint  h6 .opn,
-.prettyprint  h6 .clo,
-.prettyprint  h6 .fun,
-.prettyprint  h6 .str,
-.prettyprint  h6 .atv,
-.prettyprint  h6 .kwd,
-.prettyprint  h6 .tag,
-.prettyprint  h6 .typ,
-.prettyprint  h6 .atn,
-.prettyprint  h6 .dec,
-.prettyprint  h6 .var,
-.prettyprint  h6 .pln{color: #FFFFFF;}
+.prettyprint .pre-title{margin: 10px 0;padding-left: 10px; line-height: 1.5; font-weight: 400;}
+.prettyprint  .pre-title .com,
+.prettyprint  .pre-title .lit,
+.prettyprint  .pre-title .pun,
+.prettyprint  .pre-title .opn,
+.prettyprint  .pre-title .clo,
+.prettyprint  .pre-title .fun,
+.prettyprint  .pre-title .str,
+.prettyprint  .pre-title .atv,
+.prettyprint  .pre-title .kwd,
+.prettyprint  .pre-title .tag,
+.prettyprint  .pre-title .typ,
+.prettyprint  .pre-title .atn,
+.prettyprint  .pre-title .dec,
+.prettyprint  .pre-title .var,
+.prettyprint  .pre-title .pln{color: #FFFFFF;}
+.prettyprint .important{/*background-color: #505050; */}
+.prettyprint .important:before{
+        position: absolute; content: ""; display: block;width: 2px; height: 100%;
+        background-color: #E6DB74;
+        top:0;left: -8px}
