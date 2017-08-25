@@ -94,7 +94,7 @@ tinymce.PluginManager.add('wpgcp', function (editor, url) {
         function insertContents() {
             var $win = $(win.$el);
             var tagtext;
-            var langname = $win.find('input[name=wpgcp_lang]').val();
+            var langname = $win.find('input[name=wpgcp_lang]:checked').val();
             var linenumber = $.trim($win.find('#wpgcp_linenumber').val());
             var filename = $.trim($win.find('#wpgcp_filename').val());
             var importlines = $.trim($win.find('#wpgcp_importlines').val());
